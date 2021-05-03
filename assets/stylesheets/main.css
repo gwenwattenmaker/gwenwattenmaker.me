@@ -1,0 +1,66 @@
+.main-body {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+	padding: 1em;
+}
+
+.hello {
+  font-size: 2em;
+  text-align: center;
+}
+
+.hello p {
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+.image-container {
+  position: relative;
+}
+
+.skiing {
+  object-fit: contain;
+}
+
+.overlay {
+  position: absolute;
+  top: 77%;
+  width: 100%;
+  font-size: 1.5em;
+  font-style: oblique;
+  padding: 1em;
+  color: var(--teal);
+  opacity: 0;
+}
+
+.image-container:hover .skiing {
+  opacity: 0.7;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+.icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.far, .fab, .icons p {
+	padding: .25em;
+	font-size: 1.5em;
+  color: var(--teal);
+}
+
+.icons p {
+	font-size: 1em;
+}
+
+.far:hover, .fab:hover {
+	color: var(--lblue);
+}

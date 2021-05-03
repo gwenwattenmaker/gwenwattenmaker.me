@@ -1,0 +1,37 @@
+.main-body {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1em;
+}
+
+.image-container {
+  position: relative;
+  width: 350px;
+  height: 350px;
+}
+
+.image {
+  padding-top: 1em;
+  padding-left: .25em;
+  padding-right: .25em;
+  object-fit: cover;
+}
+
+.image-container:hover .image{
+  opacity: .3;
+}
+
+.overlay {
+  font-weight: bold;
+  color: var(--dgreen);
+  text-align: center;
+  position: relative;
+  bottom: 50%;
+  width: 100%;
+  opacity: 0;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}

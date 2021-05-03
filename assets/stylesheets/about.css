@@ -1,0 +1,32 @@
+
+.main-body {
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.me {
+  object-fit: contain;
+  padding: 2em;
+}
+
+.text {
+  padding-left: 1em;
+  padding-right: 5em;
+  padding-top: 1em;
+}
+
+ul {
+  padding-left: 1em;
+}
+
+.far {
+  padding-right: 0.5em;
+  transform-origin: center;
+  transform: scale(.5);
+  color: var(--lblue);
+}
